@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* this for excercise 1 */
+.box1,.box2,.box3,.box4,.box5{
+    background-color: greenyellow;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+}
+
+.first, .third{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3{
+    margin: 0 auto;
+}

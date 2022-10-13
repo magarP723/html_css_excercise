@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* this is for excercise 2 */
+.box1,.box3{
+    background-color: green;
+    height: 350px;
+    width: 250px;
+    margin: 10px;
+}
+.box2{
+    background-color: green;
+    height: 350px;
+    width: 1000px;
+    margin: 10px;
+}
+.second,.first{
+    display: flex;
+    flex-direction: row-reverse;
+}

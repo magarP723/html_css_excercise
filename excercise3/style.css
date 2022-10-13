@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* excercise 3 from here */
+.box1,.box2,.box3{
+    background-color: green;
+    margin: 15px;
+    width: 250px;
+    height: 250px;
+}
+.second,.first{
+    display: flex;
+}
+.box2{
+    margin: 0 auto;
+}
+.third{
+    display: flex;
+    flex-direction: row-reverse;
+}
